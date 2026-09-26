@@ -1,14 +1,21 @@
 ---
 name: b2b-lead-hunter
-description: Use when researching foreign-trade B2B leads, buyer companies, distributors, importers, wholesalers, reachable decision makers, customs/import signals, and outreach-ready contacts from product, region, ICP, website, or document inputs. Use for evidence-backed lead hunting, qualification, exportable lead files, regional/language email templates, company-personalized email drafts, and controlled SMTP sending after approval.
-version: 1.0.0
-author: xiongbojian
+description: >
+  ZER0 lead hunter (VIBEZER0Ai fork). Use for NA/EU apparel brand sourcing +
+  sustainability P1 and LATAM Mexico warm-seed research; evidence-backed company
+  and decision-maker digests; outreach DRAFTS only (Gmail drafts). Do NOT use for
+  SMTP send, live LinkedIn send, Instantly, or customer send. Joe (Instinct):
+  research/draft only — does not own ZER0 LI outbound.
+version: 1.0.0-zer0
+author: xiongbojian (upstream) / ZER0 overlay
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [b2b, foreign-trade, lead-generation, search, jina, serper, contacts, sales, outreach]
-    related_skills: [hermes-agent, searxng-search, domain-intel]
+    tags: [b2b, zer0, apparel-sourcing, lead-generation, jina, serper, outreach-drafts]
+  zer0:
+    smtp: HOLD
+    brief: zer0/brief.json
 ---
 
 # B2B Lead Hunter
@@ -20,6 +27,15 @@ Research foreign-trade B2B prospects and contact channels for physical-product e
 Hermes owns judgment, evidence review, search iteration, language choice, and approval decisions. Scripts own deterministic normalization, page reading, contact extraction, dedupe, validation, template rendering, draft evaluation, export, and SMTP plumbing.
 
 Default objective: produce a traceable lead file where every company, contact channel, decision maker, score, and outreach draft is tied to source URLs and structured artifacts. Quality gates override target count.
+
+
+
+## ZER0 locks (override upstream continuous-send preference)
+
+- **SMTP HOLD.** Never run `send_smtp.py --send-approved`. Gmail drafts only.
+- Mon niche: `zer0/brief.json` (NA/EU P1 + LATAM PIAGUI/Axo/Someone Somewhere). Not foreign-trade switches default.
+- Joe (Instinct): research/draft only — no ZER0 LI outbound/send.
+- Keys when VB provides them: `JINA_API_KEY`, `SERPER_API_KEY`, optional `TAVILY_API_KEY`.
 
 ## User Workflow Preference
 

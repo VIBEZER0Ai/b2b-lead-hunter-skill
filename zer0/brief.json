@@ -1,0 +1,130 @@
+{
+  "run_id": "zer0-mon-naeu-latam-20260929",
+  "product": {
+    "category": "apparel brand sourcing and factory matchmaking",
+    "products": [
+      "direct factory introductions for apparel brands",
+      "low-MOQ capable production partners",
+      "sustainability and compliance-aware sourcing support",
+      "materials and production matchmaking (woven / knit / denim as fit)"
+    ],
+    "description": "ZER0 (Zer0.ai) helps apparel brands, retailers with private label, and importers that source directly find factory partners who can take small-to-mid programmes with real capacity \u2014 especially when sustainability, materials, or compliance is part of the buy. Not a marketplace; not agent-locked sourcing. Canadian entity; outreach is draft-only until human approve."
+  },
+  "seller": {
+    "company_name": "ZER0 (Zer0.ai / ZER0 Carbon Innovation Inc.)",
+    "website": "https://zer0.ai",
+    "email": "vishal@zer0.ai"
+  },
+  "target": {
+    "regions": [
+      {
+        "country": "United States",
+        "gl": "us",
+        "hl": "en",
+        "language": "en"
+      },
+      {
+        "country": "Canada",
+        "gl": "ca",
+        "hl": "en",
+        "language": "en"
+      },
+      {
+        "country": "United Kingdom",
+        "gl": "uk",
+        "hl": "en",
+        "language": "en"
+      },
+      {
+        "country": "Germany",
+        "gl": "de",
+        "hl": "de",
+        "language": "de"
+      },
+      {
+        "country": "France",
+        "gl": "fr",
+        "hl": "fr",
+        "language": "fr"
+      },
+      {
+        "country": "Netherlands",
+        "gl": "nl",
+        "hl": "nl",
+        "language": "nl"
+      },
+      {
+        "country": "Mexico",
+        "gl": "mx",
+        "hl": "es",
+        "language": "es"
+      }
+    ],
+    "buyer_roles": [
+      "sourcing",
+      "production",
+      "product development",
+      "merchandising",
+      "materials",
+      "sustainability",
+      "compliance"
+    ],
+    "industry_focus": [
+      "apparel brands with outsourced production",
+      "private-label retailers",
+      "importers that buy direct from factories",
+      "sustainability-led apparel brands",
+      "LATAM brand net-new (Mexico seed slice)"
+    ],
+    "negative_criteria": [
+      "fabric mills / yarn / fibre as buyers",
+      "machinery and equipment suppliers",
+      "contract manufacturers as outreach targets",
+      "pure retailers with no private label",
+      "buyers locked exclusively into Li & Fung-style agents (no direct sourcing arm)",
+      "upstream foreign-trade / electrical / industrial component ICPs",
+      "Charly / Yazbek for this Mon LATAM slice (excluded by VB)"
+    ],
+    "evidence_required": [
+      "company website showing apparel brand or private-label programme",
+      "sourcing / production / sustainability role signal",
+      "contact email or LinkedIn decision-maker path",
+      "intent or fit for low-MOQ / direct factory programmes where visible"
+    ]
+  },
+  "competitor_brands": [
+    "Li & Fung",
+    "MADE",
+    "Sourcify",
+    "Faire (wholesale \u2014 adjacency only)",
+    "traditional sourcing agents"
+  ],
+  "search_config": {
+    "mode": "pilot",
+    "results_per_query": 10,
+    "max_queries": 8,
+    "lanes": [
+      "organic",
+      "maps",
+      "b2b_platform"
+    ],
+    "local_language_required": false
+  },
+  "priority_mix": {
+    "p1": "NA/EU brand sourcing + sustainability",
+    "latam": "small mix \u2014 Mexico warm seed only for Mon",
+    "notes": "Pep adds NA/EU P1 accounts. brief niche stamped by VB via Alfred 2026-09-26. Not upstream foreign-trade default."
+  },
+  "seed_accounts_mon": {
+    "latam_mexico_warm": [
+      "PIAGUI",
+      "Axo",
+      "Someone Somewhere"
+    ],
+    "latam_excluded_this_slice": [
+      "Charly",
+      "Yazbek"
+    ],
+    "na_eu_p1": "from Pep \u2014 pending list attach"
+  }
+}
